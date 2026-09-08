@@ -12,7 +12,7 @@ body{
     padding: 20px 0;
 }
 
-.nav{
+.marco-nav{
     width: 90%;
     max-width: 800px;
     background-color: white;
@@ -21,9 +21,135 @@ body{
     box-shadow: 0 4px 12px rgba(0,0,0,1);
 }
 .header{
-    background-color: #e0e0e0;
+    background-color: #e4dcdc;
     padding: 10px 15px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
+.browser-dots {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .punto {
+    width: 12px;
+    height: 12px;
+    background-color: #b0b0b0;
+    border-radius: 2px;
+  }
+  .address-bar {
+    flex-grow: 1;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+  }
+  .hero {
+    background-color: #fce893;
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .hero-avatar {
+    width: 140px;
+    height: 140px;
+    background-color: #f6c867;
+    flex-shrink: 0;
+  }
+  .hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .hero-title {
+    height: 24px;
+    width: 45%;
+    background-color: #f3a852;
+    border-radius: 2px;
+    margin-bottom: 5px;
+  }
+  .hero-line {
+    height: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 2px;
+  }
+  
+  .hero-line.short {
+    width: 50%;
+  }
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 50px 40px;
+  }
+  .card {
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-header {
+    height: 20%;
+    width: 100%;
+  }
+  
+  .card-body {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-inner-box {
+    width: 50%;
+    height: 50%;
+  }
+.card.cyan .card-header { background-color: #8edce6; }
+.card.cyan .card-body { background-color: #bbf2f6; }
+.card.cyan .card-inner-box { background-color: #8edce6; }
+
+.card.coral .card-header { background-color: #f26a4f; }
+.card.coral .card-body { background-color: #f8967d; }
+.card.coral .card-inner-box { background-color: #f26a4f; }
+
+.card.yellow .card-header { background-color: #f8cb5b; }
+.card.yellow .card-body { background-color: #fde38a; }
+.card.yellow .card-inner-box { background-color: #f8cb5b; }
+
+.pie-pagina {
+    background-color: #e5e5e5;
+    padding: 30px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  .footer-title {
+    height: 14px;
+    width: 80%;
+    background-color: #b0b0b0;
+    border-radius: 2px;
+    margin-bottom: 4px;
+  }
+  
+  .footer-line {
+    height: 8px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 2px;
+  }
+  
+  .footer-line.short {
+    width: 60%;
+  } 
