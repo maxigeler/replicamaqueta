@@ -20,3 +20,10 @@ body{
     overflow:hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,1);
 }
+.header{
+    background-color: #e0e0e0;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
